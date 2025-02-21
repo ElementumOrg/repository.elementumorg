@@ -1,10 +1,10 @@
 # Kodi GitHub virtual repository
 
-[![Build Status](https://github.com/i96751414/repository.github/workflows/build/badge.svg)](https://github.com/i96751414/repository.github/actions?query=workflow%3Abuild)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/6b656425c8fe409eb18500bcc51c4475)](https://www.codacy.com/gh/i96751414/repository.github/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=i96751414/repository.github&amp;utm_campaign=Badge_Grade)
+This repository is a fork of a [i96751414's](https://github.com/i96751414) https://github.com/i96751414/repository.github project with minor changes. Many thanks for this project.
 
 This add-on creates a virtual repository for Kodi. This way, one does not need to use a GitHub repository for storing
 add-ons zips when all that information is already accessible from each add-on repository.
+
 
 It works by setting an HTTP server which has the following endpoints:
 
@@ -17,9 +17,8 @@ It works by setting an HTTP server which has the following endpoints:
 
 ## Installation
 
-Get the [latest release](https://github.com/i96751414/repository.github/releases/latest) from GitHub.
-Then, [install from zip](https://kodi.wiki/view/Add-on_manager#How_to_install_from_a_ZIP_file)
-within [Kodi](https://kodi.tv/).
+Get the [latest release](https://github.com/elementumorg/repository.elementumorg/releases/latest) from github.
+Then, [install from zip](https://kodi.wiki/view/Add-on_manager#How_to_install_from_a_ZIP_file) within [Kodi](https://kodi.tv/).
 
 ## Add-on entries
 
