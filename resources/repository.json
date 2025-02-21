@@ -1,71 +1,44 @@
 [
   {
-    "id": "repository.github",
-    "username": "i96751414",
-    "asset_prefix": "https://raw.githubusercontent.com/{username}/{repository}/{ref}/",
+    "id": "repository.elementumorg",
+    "username": "elementumorg",
     "assets": {
       "zip": "https://github.com/{username}/{repository}/archive/v{version}.zip"
     }
   },
   {
-    "id": "script.module.cached",
-    "username": "i96751414",
-    "asset_prefix": "https://raw.githubusercontent.com/{username}/{repository}/{ref}/",
+    "id": "plugin.video.elementum",
+    "username": "elgatito",
     "assets": {
-      "zip": "https://github.com/{username}/{repository}/archive/v{version}.zip"
+      "zip": "https://github.com/{username}/{repository}/releases/download/v{version}/{id}-{version}.client.zip"
     }
   },
   {
-    "id": "plugin.video.torrest",
-    "username": "i96751414",
-    "platforms": [
-      "android-arm",
-      "android-arm64",
-      "android-x64",
-      "android-x86",
-      "darwin-x64",
-      "linux-arm64",
-      "linux-armv7",
-      "linux-x64",
-      "linux-x86",
-      "windows-x64",
-      "windows-x86"
-    ],
-    "asset_prefix": "https://raw.githubusercontent.com/{username}/{repository}/{ref}/",
+    "id": "script.elementum.burst",
+    "username": "elgatito",
     "assets": {
-      "zip": "https://github.com/{username}/{repository}/releases/download/v{version}/{id}-{version}.{system}_{arch}.zip"
+      "zip": "https://github.com/{username}/{repository}/releases/download/v{version}/{id}-{version}.zip"
     }
   },
   {
-    "id": "plugin.video.flix",
-    "username": "i96751414",
-    "asset_prefix": "https://raw.githubusercontent.com/{username}/{repository}/{ref}/",
+    "id": "script.elementum.jackett",
+    "username": "fugkco",
     "assets": {
-      "zip": "https://github.com/{username}/{repository}/archive/v{version}.zip"
+      "zip": "https://github.com/{username}/{repository}/releases/download/v{version}/{id}.zip"
     }
   },
   {
-    "id": "plugin.image.pdfreader",
-    "username": "i96751414",
-    "asset_prefix": "https://raw.githubusercontent.com/{username}/{repository}/{ref}/",
+    "id": "context.elementum",
+    "username": "elgatito",
     "assets": {
-      "zip": "https://github.com/{username}/{repository}/archive/v{version}.zip"
+      "zip": "https://github.com/{username}/{repository}/releases/download/v{version}/{id}-{version}.zip"
     }
   },
   {
-    "id": "service.subtitles.customizer",
-    "username": "i96751414",
-    "asset_prefix": "https://raw.githubusercontent.com/{username}/{repository}/{ref}/",
+    "id": "service.lt2http",
+    "username": "ElementumOrg",
     "assets": {
-      "zip": "https://github.com/{username}/{repository}/archive/v{version}.zip"
-    }
-  },
-  {
-    "id": "script.logviewer",
-    "username": "i96751414",
-    "asset_prefix": "https://raw.githubusercontent.com/{username}/{repository}/{ref}/",
-    "assets": {
-      "zip": "https://github.com/{username}/{repository}/archive/{version}.zip"
+      "zip": "https://github.com/{username}/{repository}/releases/download/v{version}/{id}-{version}.client.zip"
     }
   }
 ]
