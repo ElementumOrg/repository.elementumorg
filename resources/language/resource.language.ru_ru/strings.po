@@ -1,0 +1,66 @@
+# Kodi Media Center language file
+# Addon Name: ElementumOrg repository
+# Addon id: repository.elementumorg
+# Addon Provider: elementumorg
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: repository.elementumorg\n"
+"Report-Msgid-Bugs-To: https://github.com/ElementumOrg/repository.elementumorg/issues\n"
+"POT-Creation-Date: 2026-11-02 00:00+0000\n"
+"PO-Revision-Date: 2026-11-02 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgctxt "#30000"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "#30001"
+msgid "Repository port"
+msgstr "Порт репозитория"
+
+msgctxt "#30002"
+msgid "Import entries"
+msgstr "Импортировать записи"
+
+msgctxt "#30003"
+msgid "Delete entries"
+msgstr "Удалить записи"
+
+msgctxt "#30004"
+msgid "Delete all entries"
+msgstr "Удалить все записи"
+
+msgctxt "#30005"
+msgid "Update repository"
+msgstr "Обновить репозиторий"
+
+msgctxt "#30006"
+msgid "About"
+msgstr "О дополнении"
+
+msgctxt "#30010"
+msgid "No entries to delete"
+msgstr "Нет записей для удаления"
+
+msgctxt "#30011"
+msgid "Entries deleted"
+msgstr "Записи удалены"
+
+msgctxt "#30012"
+msgid "Entries imported"
+msgstr "Записи импортированы"
+
+msgctxt "#30013"
+msgid "Repository updated"
+msgstr "Репозиторий обновлён"
+
+msgctxt "#30014"
+msgid "Failed updating repository"
+msgstr "Не удалось обновить репозиторий"

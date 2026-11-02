@@ -1,12 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-    <!-- General -->
-    <category label="30000">
-        <setting id="repository_port" type="number" label="30001" default="65223"/>
-        <setting label="30002" type="action" action="RunScript(repository.elementumorg, import_entries)"/>
-        <setting label="30003" type="action" action="RunScript(repository.elementumorg, delete_entries)"/>
-        <setting label="30004" type="action" action="RunScript(repository.elementumorg, clear_entries)"/>
-        <setting label="30005" type="action" action="RunScript(repository.elementumorg, update_repository)"/>
-        <setting label="30006" type="action" action="RunScript(repository.elementumorg, about)"/>
-    </category>
+<settings version="1">
+    <section id="repository.elementumorg">
+        <category id="general" label="30000">
+            <group id="1">
+                <setting id="repository_port" type="integer" label="30001">
+                    <level>0</level>
+                    <default>65223</default>
+                    <constraints>
+                        <minimum>1</minimum>
+                        <maximum>65535</maximum>
+                    </constraints>
+                    <control type="edit" format="integer"/>
+                </setting>
+            </group>
+            <group id="2">
+                <setting id="import_entries" type="action" label="30002">
+                    <level>0</level>
+                    <data>RunScript(repository.elementumorg, import_entries)</data>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="button" format="action"/>
+                </setting>
+                <setting id="delete_entries" type="action" label="30003">
+                    <level>0</level>
+                    <data>RunScript(repository.elementumorg, delete_entries)</data>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="button" format="action"/>
+                </setting>
+                <setting id="clear_entries" type="action" label="30004">
+                    <level>0</level>
+                    <data>RunScript(repository.elementumorg, clear_entries)</data>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="button" format="action"/>
+                </setting>
+                <setting id="update_repository" type="action" label="30005">
+                    <level>0</level>
+                    <data>RunScript(repository.elementumorg, update_repository)</data>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="button" format="action"/>
+                </setting>
+                <setting id="about" type="action" label="30006">
+                    <level>0</level>
+                    <data>RunScript(repository.elementumorg, about)</data>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="button" format="action"/>
+                </setting>
+            </group>
+        </category>
+    </section>
 </settings>
